@@ -581,7 +581,7 @@
                 width="24"
                 height="24"
               >
-                <use href="./images/.svg#"></use>
+                <use href="./images/icons.svg#icon-mail"></use>
               </svg>
             </button>
           </form>
@@ -590,7 +590,73 @@
     </footer>
     <div class="modal-background">
       <div class="modal__contact-us">
-        <button class="modal__contact-us__close" type="button"></button>
+        <button class="modal__contact-us__close" type="button">
+          <svg class="modal__contact-us__close-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal__contact-us__text">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal__contact-us__form">
+          <div class="modal__contact-us__form__container">
+            <label class="modal__contact-us__form__label" for="user-name"
+              >Name</label
+            >
+            <div class="modal__contact-us__form__input-container">
+              <input
+                class="modal__contact-us__form__input"
+                id="user-name"
+                type="text"
+                name="user-name"
+              />
+              <svg
+                class="modal__contact-us__form__input__svg"
+                width="16"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-man"></use>
+              </svg>
+            </div>
+
+            <label class="modal__contact-us__form__label" for="user-phone"
+              >Phone</label
+            >
+            <div class="modal__contact-us__form__input-container">
+              <input
+                class="modal__contact-us__form__input"
+                id="user-phone"
+                type="text"
+                name="user-phone"
+              />
+              <svg
+                class="modal__contact-us__form__input__svg"
+                width="16"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <label class="modal__contact-us__form__name-label" for="user-email"
+              >Email</label
+            >
+            <div class="modal__contact-us__form__input-container">
+              <input
+                class="modal__contact-us__form__input"
+                id="user-email"
+                type="text"
+                name="user-email"
+              />
+              <svg
+                class="modal__contact-us__form__input__svg"
+                width="16"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </body>
