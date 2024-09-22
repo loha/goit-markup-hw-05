@@ -558,7 +558,7 @@ header address .contact-info__first:focus {
   color: #ffffff;
 }
 
-.subscribe .form {
+.subscribe .subscribe__form {
   display: flex;
   gap: 24px;
 }
