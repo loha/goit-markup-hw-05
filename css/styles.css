@@ -75,10 +75,10 @@ nav ul .header-list__first {
 
 nav ul .header-list__first_active {
   position: relative;
+  color: #404bbf;
 }
 
 nav ul .header-list__first:first-child {
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -90,7 +90,7 @@ nav ul .header-list__first:focus {
   color: #404bbf;
 }
 
-nav ul .header-list__first::after {
+nav ul .header-list__first_active::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -366,6 +366,7 @@ header address .contact-info__first:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .third-content .third-content__list-item .title {
