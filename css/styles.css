@@ -773,10 +773,11 @@ header address .contact-info__first:focus {
 
 .modal__contact-us__form
   .modal__contact-us__form__checkbox:checked
-  + .modal__contact-us__form
-  > .modal__contact-us__form__checkbox-label
+  + .modal__contact-us__form__checkbox-label
   > .subtext {
   background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .modal__contact-us__form .modal__contact-us__form__checkbox-label .link {
