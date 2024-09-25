@@ -721,7 +721,7 @@ header address .contact-info__first:focus {
 
 .modal__contact-us__form
   .modal__contact-us__form__input:focus
-  .modal__contact-us__form__input__svg {
+  + .modal__contact-us__form__input__svg {
   fill: #4d5ae5;
 }
 
