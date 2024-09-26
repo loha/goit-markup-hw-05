@@ -700,6 +700,7 @@ header address .contact-info__first:focus {
 .modal__contact-us__form .modal__contact-us__form__input {
   width: 100%;
   height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding-left: 38px;
