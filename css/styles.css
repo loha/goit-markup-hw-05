@@ -705,6 +705,13 @@ header address .contact-info__first:focus {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__contact-us__form .modal__contact-us__form__input:hover {
+  border-color: #4d5ae5;
+}
+
+.modal__contact-us__form .modal__contact-us__form__input:focus {
   border-color: #4d5ae5;
 }
 
@@ -743,6 +750,10 @@ header address .contact-info__first:focus {
 }
 
 .modal__contact-us__form .modal__contact-us__form__textarea:hover {
+  border-color: #4d5ae5;
+}
+
+.modal__contact-us__form .modal__contact-us__form__textarea:focus {
   border-color: #4d5ae5;
 }
 
