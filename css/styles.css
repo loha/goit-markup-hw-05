@@ -740,6 +740,9 @@ header address .contact-info__first:focus {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__contact-us__form .modal__contact-us__form__textarea:hover {
   border-color: #4d5ae5;
 }
 
