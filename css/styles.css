@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -81,7 +81,7 @@ img {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -141,7 +141,7 @@ img {
   }
 
   .studio::after {
-    content: '';
+    content: "";
     width: 100%;
     position: absolute;
     left: 0;
@@ -1124,7 +1124,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 288px;
+  width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -1242,7 +1242,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #2e2f42;
+  color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
@@ -1304,7 +1304,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.checkbox[type='checkbox']:checked
+.checkbox[type="checkbox"]:checked
   + .modal-privacy-checkbox
   > .checkbox-custom {
   fill: #f4f4fd;
@@ -1346,4 +1346,10 @@ img {
 .modal-send:focus {
   background-color: #404bbf;
   text-decoration: underline;
+}
+
+.checkbox-text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
