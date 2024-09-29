@@ -1082,6 +1082,7 @@ img {
   margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .footer-btn-sub:hover,
