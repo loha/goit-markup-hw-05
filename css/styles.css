@@ -1307,6 +1307,7 @@ img {
 .checkbox[type="checkbox"]:checked
   + .modal-privacy-checkbox
   > .checkbox-custom {
+  border: none;
   fill: #f4f4fd;
   border-color: none;
   background-color: #404bbf;
